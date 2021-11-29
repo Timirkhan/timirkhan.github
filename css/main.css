@@ -1,0 +1,131 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+.conteiner {
+	width: 1170px;
+	margin: 0 auto;
+
+}
+.header {
+	background: rgba(77,191,254,1);
+	background: -moz-linear-gradient(45deg, rgba(77,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(77,191,254,1)), color-stop(100%, rgba(55,143,217,1)));
+	background: -webkit-linear-gradient(45deg, rgba(77,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -o-linear-gradient(45deg, rgba(77,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -ms-linear-gradient(45deg, rgba(77,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: linear-gradient(45deg, rgba(77,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbffe', endColorstr='#378fd9', GradientType=1 );
+	padding-top: 60px;
+	color: #fff;
+}
+.logo {
+	height: 37px;
+	width: 100px;
+}
+.offer {
+	width: 600px;
+	margin-top: 135px;
+}
+.paragraph {
+	font-size: 37px;
+	margin-bottom: 48px;
+	line-height: 1.4em;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.intro {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 40px;
+	width: 395px;
+	font-size: 16px;
+}
+span {
+	font-size: 59px;
+}
+.btn {
+	background: #ffd429;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	width: 220px;
+	padding: 22px 0;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+.btn:hover {
+	background: #d1aa11
+}
+.travel {
+	margin-right: -60px;
+	margin-top: 65px;
+	margin-bottom: 140px;
+}
+.wrapper2 {
+	display: flex;
+	margin-top: 70px;
+	text-align: center;
+}
+.h2 {
+	font-size: 30px;
+	text-align: center
+}
+h3 {
+	font-size: 19px;
+	margin-top: 25px;
+}
+.time {
+	margin-top: 100px;
+	height: 500px;
+}
+.logotype {
+	width: 300px;
+	margin: 0 auto;
+}
+.mail {
+	background: #c7ced3;
+	padding-top: 100px;
+	padding-bottom: 95px;
+}
+.input {
+	margin-top: 55px;
+	text-align: center;
+}
+.input2 {
+	height: 45px;
+	width: 300px;
+	margin-bottom: 15px;
+}
+button {
+	background: #ffd429;
+	color: #2E2A1B;
+	font-family: 'Montserrat', sans-serif;
+	margin: 20px 0px 0px;
+	padding: 20px 0px;
+	width: 300px;
+	transition: all 0.5s ease;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.footer {
+	text-align: center;
+	background: #164d7a;
+	padding-top: 63px;
+	padding-bottom: 65px;
+}
+.itog {
+	font-size: 14px;
+	color: #fff;
+}
