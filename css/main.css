@@ -1,0 +1,262 @@
+body {
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;                              
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+.conteiner {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.header {
+	background: rgba(77,192,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dc0fe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 60px;
+	padding-bottom: 140px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.offer {
+	width: 600px;
+}
+
+.paragraph {
+	font-size: 37px;
+}
+
+.paragraph span {
+	font-size: 59px;
+	width: 570px;
+}
+
+.intro {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	width: 405px;
+}
+
+.btn {
+	background-color: #ffd429;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	display: block;
+	width: 205px;
+	padding: 9px 0;
+	text-align: center;
+	text-decoration: none;
+	color: black ;
+}
+
+.btn:hover {
+	background: #d1aa11;
+}
+
+.travel {
+	padding-top: 55px;
+	width: 520px;
+	height: 520px;
+}
+
+.mail {
+	padding-top: 110px;
+	padding-bottom: 120px;
+}
+
+.h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+.wrapper2 {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 70px;
+	text-align: center;
+}
+
+.h3 {
+	padding-top: 30px;
+	font-size: 19px;
+}
+
+.logotype {
+	width: 288px;
+}
+
+.mail {
+	background-color: #ecf3f8;
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+
+.h22 {
+	text-align: center;
+	padding-bottom: 60px;
+	font-size: 30px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 60px;
+	max-width: 340px;
+	margin: 0 auto;
+}
+
+.input2 {
+	margin: 0 auto 15px;
+	width: 100%;
+	height: 35px;
+}
+
+.time {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	height: 500px;
+}
+
+.button {
+	width: 340px;
+	margin: 0 auto 15px;
+	background-color: #ffd429;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	display: block;
+	padding: 9px 0px;
+	text-align: center;
+	text-decoration: none;
+	color: black ;
+}
+
+.itog {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+}
+
+.footer {
+	background-color: #164d7a;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+
+.icon {
+	transition: 3s;
+}
+.icon:hover {
+	transform: scale(1.5);
+}
+button {
+	background: #ffd429;
+	color: #2E2A1B;
+	font-family: 'Montserrat', sans-serif;
+	margin: 20px 0px 0px;
+	padding: 20px 0px;
+	width: 100%;
+	transition: all 0.5s ease;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	margin-top: 10px;
+
+}
+button:hover {
+	background: #d1aa11
+} 
+.travel {
+	margin-right: -60px;
+	margin-top: 65px;
+	margin-bottom: 140px;
+    transition: 12s;
+}
+.travel:hover {
+	transform: rotate(360deg);
+}
+
+@media screen and (max-width: 1200px) {
+	.conteiner {
+		width: 960px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.conteiner {
+		width: 720px;
+	}
+
+	.wrapper {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.conteiner {
+		width: 540px;
+	}
+
+	.wrapper2 {
+		flex-direction: column;
+	}
+
+	.logo {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.conteiner {
+		width: 90%;
+	}
+
+	.travel {
+		width: 280px;
+		height: 280px;
+	}
+
+	.paragraph {
+		width: 100%;
+	}
+
+	.intro {
+		width: 100%;
+	}
+
+	.button {
+		width: 100%;
+	}
+
+}
