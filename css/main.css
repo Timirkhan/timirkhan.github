@@ -1,0 +1,252 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+input,button,textarea{font-family:inherit;}
+nav,footer,header,aside{display: block;}
+input,button,textarea{font-family:inherit;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+header {
+	background-color: #F0EEDD;
+}
+.container {
+	width: 1440px;
+	margin: 0 auto;
+}
+.section {
+	height: 82px;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+}
+.heading {
+	text-align: center;
+	padding-top: 9px;
+	height: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20,4px;
+	letter-spacing: 0,5px;
+	text-align: center;
+}
+.menu {
+	font-family: 'Roboto', sans-serif;
+	justify-content: space-between;
+	display: flex;
+	padding-top: 30px;
+	text-decoration: active;
+}
+.logo {
+	text-align: center;
+	padding-top: 25px
+	height: 32px;
+	width: 131px;
+}
+.shop {
+	width: 48px;
+	font-weight: bold;
+}
+.always {
+	width: 109px;
+	font-weight: bold;
+	margin-left: 35px;
+}
+.mission {
+	width: 70px;
+	margin-right: 35px;
+	font-weight: bold;
+}
+.faqs {
+	width: 45px;
+	font-weight: bold;
+	margin-right: 19px;
+}
+.menu .profil {
+	background-color: #C87B5E;
+	font-family: 'Roboto', sans-serif;
+	display: inline;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	text-decoration: none;
+	color: white ;
+	border-radius: 50%;
+}
+.kitchen {
+	height: 605px;
+}
+.pan {
+	position: absolute;
+	padding-left: 383px;
+	padding-top: 168px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400px;
+	color: #35312E;
+}
+.meet {
+	width: 248px;
+	height: 16px;
+	font-size: 16px; line-height: 16px; text-transform: uppercase;
+}
+.your {
+	margin-top: 9px;
+	width: 248px;
+	height: 72px;
+	font-size: 50px; line-height: 72px; letter-spacing: 1px;
+}
+.skillet {
+	margin-top: -19px;
+	position: absolute;
+	width: 155px;
+	height: 72px;
+	font-size: 50px; line-height: 72px; letter-spacing: 1px; text-decoration-line: underline;
+}
+.buy {
+	margin-top: 60px;
+	background-color: #D37657;
+	font-family: 'Roboto', sans-serif; font-weight: bold; text-transform: uppercase; 
+	font-size: 12px; line-height: 20px;
+	border-radius: 30px;
+	display: block;
+	width: 248px;
+	padding: 20px 30px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+/*.container {
+	margin-top: -4px;	
+}*/
+.teg {
+	height: 216px;
+	padding-top: 42px;
+	background: #F5F1E9;
+}
+.doing {
+	width: 629px;
+	height: 48px;
+	font-family: Roboto;
+	margin-left: 406px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.tegimg {
+	justify-content: space-evenly;
+	display: flex;
+	margin-top: 40px;
+}
+.text {
+	background: #FCFAF6;
+	padding-top: 121px;
+	height: 340px;
+	justify-content: space-between;
+	display: flex;
+}
+.welcome {
+	width: 400px;
+	height: 93px;
+	font-weight: bold; font-size: 41px;
+	line-height: 46px;
+	text-align: center;
+	letter-spacing: 1.25px;
+	color: #35312E;
+	margin-left: 135px;
+}
+.place {
+	width: 650px;
+	height: 104px;
+	font-weight: normal; font-size: 16px;
+	line-height: 26px;
+	color: #4F463F;
+	margin-right: 120px;
+}
+.posuda .container {
+	height: 939px;
+	background: #FBF6EA;
+}
+.text2 {
+	padding-top: 70px;
+	text-align: center;
+	padding-bottom: 45px;
+}
+
+.text2 p{
+	height: 48px;
+	font-size: 35px;
+	line-height: 48px;
+	color: #35312E;
+	font-weight: normal;
+}
+.text2 a {
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+.color {
+	justify-content: center;
+	display: flex;
+	padding-top: 53px;
+}
+.orange {background: #E09D81;}.blue {background: #748EA1;margin-left:15px;}.brown {background: #B76D47;margin-left:15px;}.green {background: #7D836E;margin-left:15px;}
+.red{background: #C33636;margin-left:15px;}.white{background: #CDC7B3;margin-left:15px;}.black{background: #595752;margin-left:15px;}.pink{background: #D3C2CA;margin-left:15px;}
+
+.kastrula {
+	position: absolute;
+	background: transparent;
+	padding-left: 518px;
+}
+.posuda .container .choice p {
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	color: #6E6259;
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: normal;
+}
+.modular {
+	margin-top: 83px;
+	margin-left: 374px;
+	width: 135px;
+	height: 31px;
+} 
+.easy {
+	margin-top: 357px;
+	margin-left: 454px;
+	width: 107px;
+	height: 31px;
+}
+.exclusive {
+	margin-top: 472px;
+	margin-left: 374px;
+	width: 172px;
+	height: 47px;
+}
+.beechwood {
+	margin-top: 36px;
+	margin-left: 896px;
+	width: 158px;
+	height: 31px;
+}
+.nesting {
+	margin-top: 284px;
+	margin-left: 888px;
+	width: 171px;
+	height: 31px;
+}
+.stay {
+	margin-top: 443px;
+	margin-left: 935px;
+	width: 160px;
+	height: 16px;
+}
