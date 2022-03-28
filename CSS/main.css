@@ -19,21 +19,21 @@ p, h1, h2, h3 {font-family: 'Roboto', sans-serif; }
 }
 .logo {
 	float: left;
-    height: 90px;
-    width: 90px;
-    margin: 25px 20px;
-    transition: 6s;
+	height: 90px;
+	width: 90px;
+	margin: 25px 20px;
+	transition: 6s;
 }
 .logo:hover {
 	transform: scale(1.1);
 }
 .dgu {
-    height: 90px;
-    text-align: center;
-    padding: 25px;
-    color: #104E8B;
-    font-size: 26px;
-    font-weight: bold;
+	height: 90px;
+	text-align: center;
+	padding: 25px;
+	color: #104E8B;
+	font-size: 26px;
+	font-weight: bold;
 }
 .form {
 	float: right;
@@ -77,35 +77,35 @@ p, h1, h2, h3 {font-family: 'Roboto', sans-serif; }
 	color: rgba(0, 0, 0, 0.5);
 }
 .glav {
-    width: 230px;
-    background-color: #F5F1E9;
-    font-family: Tahoma;
+	width: 230px;
+	background-color: #F5F1E9;
+	font-family: Tahoma;
 }
 .glav-a {
-    font-size: 16px;
-    font-weight: bold;
+	font-size: 16px;
+	font-weight: bold;
 	background-color: #807C62;
 	font-family: 'Montserrat', sans-serif;
 	display: block;
 	text-align: center;
 	text-decoration: none;
 	color: black ;
-    height: 40px;
-    padding-top: 10px;
+	height: 40px;
+	padding-top: 10px;
 }
 .glav-a:hover {
 	background: #807C70;
 }
 .glav-menu1 {
-    margin-left: 1px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    display: block;
-    font-family: Tahoma;
-    font-size: 13px;
-    font-weight: bold;
-    border-bottom: 0.1px solid black;
+	margin-left: 1px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	display: block;
+	font-family: Tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	border-bottom: 0.1px solid black;
 }
 .a {
 	text-decoration: none;
@@ -181,19 +181,19 @@ h4 {
 }
 .ivc {
 	font-family: Roboto; font-weight: normal; font-size: 14px;
-    color: white;
-    text-align: center;
-    float: right;
-    margin-top: -25px;
+	color: white;
+	text-align: center;
+	float: right;
+	margin-top: -25px;
 }
 .ivc a {
 	text-decoration: none;
 }
 .b {
 	color: #000;
-    font-family: Tahoma;
-    font-size: 14px;
-    text-decoration: none;
+	font-family: Tahoma;
+	font-size: 14px;
+	text-decoration: none;
 }
 .b:hover {
 	color:#293133;
